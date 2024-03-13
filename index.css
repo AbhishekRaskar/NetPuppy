@@ -1,0 +1,398 @@
+>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        background-color: crimson;
+        width: 100%;
+        border-radius: 5px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        display: inline;
+        position: relative;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        display: block;
+        padding: 14px 20px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        position: relative;
+      }
+
+      nav ul li a:hover::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 100%;
+        height: 2px;
+        background-color: #ffc200;
+      }
+
+      .content {
+        position: relative;
+        text-align: center;
+        margin: 20px;
+        width: 40%;
+        max-width: 50%;
+      }
+
+      .content h2 {
+        position: absolute;
+        top: 68%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        text-align: center;
+        width: 80%;
+        color: #fff;
+        font-family: "TT Chocolates Trl";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+      }
+
+      .content p {
+        position: absolute;
+        top: 86%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        color: white;
+        z-index: 1;
+        text-align: center;
+        width: 80%;
+        font-family: "TT Chocolates Trl";
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.34px;
+      }
+
+      .content img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 90%;
+        border-radius: 2%;
+        /* height: 100%; */
+        position: relative;
+        z-index: 0;
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border: 3px solid #ffc200;
+        border-radius: 50px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      button img {
+        width: 40px;
+        height: auto;
+      }
+
+      .video-container {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        height: 100vh;
+        /* Adjust height as needed */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .video-container video {
+        width: 90%;
+        max-height: 90%;
+        object-fit: cover;
+        opacity: 0.9;
+        border-radius: 10px;
+      }
+
+      .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      .play-button img {
+        width: 100px;
+        height: auto;
+      }
+
+      .fourth-div-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        gap: 100px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 20px; */
+        padding: 0 20px;
+      }
+
+      .fourth-div-container img {
+        width: 40%;
+        max-width: 400px;
+        border-radius: 10px;
+        margin-right: 20px;
+      }
+
+      .fourth-div-content button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border: 3px solid #ffc200;
+        border-radius: 50px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .fourth-div-content button img {
+        width: 40px;
+        height: auto;
+      }
+
+      .fourth-div-content {
+        flex: 1;
+      }
+
+      /* Style for the fifth div */
+      .fifth-div-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+      }
+
+      .fifth-div-container > div {
+        width: 50%;
+        text-align: center;
+      }
+
+      .fifth-div-container h1 {
+        color: #202833;
+        font-family: Mirador;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+        margin-bottom: 20px;
+      }
+
+      .fifth-div-container h1 span {
+        color: crimson;
+      }
+
+      .fifth-div-container h2 {
+        color: #202833;
+        font-family: Goudy Old Style;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+
+      .fifth-div-container h2 span {
+        color: crimson;
+        font-weight: 600;
+      }
+
+      .fifth-div-container p {
+        color: #202833;
+        font-family: TT Chocolates;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .fifth-div-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      /* Style for the sixth div */
+      .sixth-div-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+      }
+
+      .sixth-div-container > div {
+        width: 50%;
+        text-align: center;
+      }
+
+      .sixth-div-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .sixth-div-container > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: crimson;
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+      }
+
+      .sixth-div-container h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .sixth-div-container p {
+        font-size: 25px;
+      }
+
+      /* Style for the eighth div */
+      .eighth-div-container {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        padding: 50px 0;
+        margin: auto;
+      }
+
+      .eighth-div-container > div {
+        width: 45%; /* Adjust the width as needed */
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .rankings {
+        background-color: crimson;
+        padding: 20px;
+        border-radius: 10px;
+        color: white;
+        flex: 1; /* Allow each ranking div to grow to fill available space */
+        margin: 10px; /* Add margin for spacing */
+      }
+
+      .rankings h1,
+      .rankings h2,
+      .rankings h4 {
+        margin: 5px 0; /* Adjust margin for spacing */
+      }
+
+      /* Style for the ninth div */
+      .ninth-div-container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+      }
+
+      .parent-feedback {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .parent-feedback h1 {
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      .parent-feedback hr {
+        border: 1px solid #ccc;
+        margin: 10px 0;
+      }
+
+      .parent-feedback h4 {
+        font-size: 20px;
+      }
+
+      .parent-feedback-image img {
+        max-width: 100%;
+        border-radius: 20px;
+      }
+
+      /* Style for the 11th div */
+      .eleventh-div-container {
+        border-radius: 20px;
+        margin: auto;
+        width: 80%;
+        background-color: crimson;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+      }
+
+      .eleventh-div-container > div {
+        width: 30%;
+        text-align: center;
+      }
+
+      .eleventh-div-container h1 {
+        text-align: left;
+        color: black;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    
