@@ -2,6 +2,8 @@
 
 Welcome to Madeira School, where girls in grades 9-12 thrive. Founded in 1906, our elite college-prep institution in McLean, Virginia, offers a tailored education for 336 students. With a focus on academic excellence, personal growth, and a diverse community, Madeira provides the perfect environment for your daughter to succeed. Join us and experience the difference at Madeira School.
 
+**App Deployed Link:** [Madeira School](https://fluffy-swan-a49f50.netlify.app/)
+
 # Tech Stacks Used
 ### HTML
 ### CSS
